@@ -1,0 +1,23 @@
+
+name: reparador_autorizado
+description: Proyecto Flutter APK MVP
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.2.5+1
+  path_provider: ^2.0.14
+  pdf: ^3.12.2
+  csv: ^5.0.0
+  image_picker: ^0.8.7+5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/icons/
